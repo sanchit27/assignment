@@ -93,4 +93,23 @@ The project reads input files containing sequences of hyphens (-) and asterisks 
 
 Running the Application
 To run the application manually with a specific input file, use the following command:
+```bash
+java -cp target/classes moneylion.App < input/input1.txt
+```
+
+Input Format
+The input file should be a text file where each line is a string of hyphens (-) and asterisks (*). Example:
+```bash
+**-------
+-*--**--
+-----***
+-------*
+```
+
+Output Format
+The output of the program will be the coordinates of the top-left and bottom-right corners of the bounding box in the format (x1,y1)(x2,y2):
+```bash
+(2,5)(4,8)
+```
+---
 
