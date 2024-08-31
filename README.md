@@ -44,3 +44,24 @@ The **Java Bounding Box Finder** project is a simple yet powerful tool that iden
 └── .github/
     └── workflows/
         └── ci.yml  # GitHub Actions workflow for CI/CD
+```
+---
+## ⚙️ Setup
+### Prerequisites
+Ensure you have the following installed on your system:
+
+1. Java 17: This project requires Java 17. You can download JDK 17 here.
+M2. aven 3.8+: Maven is used to manage project dependencies and to build the project. You can download Maven here.
+3. Git: Git is required for cloning the repository and managing version control. You can download Git here.
+   
+## Installation
+Follow these steps to set up the project on your local machine:
+
+1. Clone the Repository:
+
+Clone the project repository from GitHub to your local machine:
+```bash
+git clone https://github.com/sanchit27/assignment.git
+cd assignment
+```
+````
