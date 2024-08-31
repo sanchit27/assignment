@@ -112,4 +112,28 @@ The output of the program will be the coordinates of the top-left and bottom-rig
 (2,5)(4,8)
 ```
 ---
+## 🚀 CI/CD Pipeline
+
+This project is equipped with a CI/CD pipeline using GitHub Actions. The pipeline is configured to run on every push to the main branch and on pull requests.
+
+### Pipeline Steps
+1. Checkout Code: Checks out the latest code from the repository.
+2. Set up Java Environment: Configures Java 17 on the runner.
+3. Cache Maven Dependencies: Caches Maven dependencies to speed up builds.
+4. Build Project: Compiles the project using Maven.
+5. Run Tests: Executes unit tests with Maven.
+6. Run Custom Script: Runs run_tests.sh to validate the output against expected results.
+   
+### Monitoring the Pipeline
+You can monitor the status of the pipeline from the Actions tab in your GitHub repository. The status badge at the top of this README also indicates the latest build status.
+----
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the project
+2. Create a new branch (git checkout -b feature-branch)
+3. Commit your changes (git commit -m 'Add some feature')
+4. Push to the branch (git push origin feature-branch)
+5. Open a Pull Request
+
 
