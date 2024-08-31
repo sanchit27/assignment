@@ -64,4 +64,33 @@ Clone the project repository from GitHub to your local machine:
 git clone https://github.com/sanchit27/assignment.git
 cd assignment
 ```
-````
+2. Build the Project:
+
+Use Maven to compile the project:
+
+```bash
+mvn compile
+```
+3. Run the Unit Tests:
+
+Run the JUnit tests to ensure everything is working correctly:
+```bash
+mvn test
+```
+4. Run the Custom Test Script:
+
+The run_tests.sh script runs the application with various input files and compares the output with expected results:
+
+``` bash
+./run_tests.sh
+```
+This will generate output files in the actual_output/ directory and compare them with the expected outputs in the output/ directory.
+
+---
+
+## 🛠 Usage
+The project reads input files containing sequences of hyphens (-) and asterisks (*). It then calculates and prints the minimum bounding box coordinates for contiguous groups of asterisks.
+
+Running the Application
+To run the application manually with a specific input file, use the following command:
+
