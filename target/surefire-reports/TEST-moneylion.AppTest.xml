@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="moneylion.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="moneylion.AppTest" time="0.028" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/sanchit/assignment/target/surefire/surefirebooter1625993399393204579.jar /Users/sanchit/assignment/target/surefire 2024-08-24T19-13-01_364-jvmRun1 surefire11893656092057947283tmp surefire_014698728468856137975tmp"/>
+    <property name="sun.java.command" value="/Users/sanchit/assignment/target/surefire/surefirebooter8575564750940548983.jar /Users/sanchit/assignment/target/surefire 2024-08-24T21-23-18_827-jvmRun1 surefire13601775034950042315tmp surefire_05472553199245811552tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/sanchit/assignment/target/test-classes:/Users/sanchit/assignment/target/classes:/Users/sanchit/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/sanchit/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/sanchit/assignment/target/surefire/surefirebooter1625993399393204579.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sanchit/assignment/target/surefire/surefirebooter8575564750940548983.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.2"/>
@@ -58,5 +58,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="moneylion.AppTest" time="0.002"/>
+  <testcase name="testBoundingBoxCase1" classname="moneylion.AppTest" time="0.004"/>
+  <testcase name="testBoundingBoxCase2" classname="moneylion.AppTest" time="0"/>
+  <testcase name="testBoundingBoxCase3" classname="moneylion.AppTest" time="0.001"/>
+  <testcase name="testBoundingBoxCase4" classname="moneylion.AppTest" time="0.001"/>
+  <testcase name="testBoundingBoxCase5" classname="moneylion.AppTest" time="0"/>
+  <testcase name="testBoundingBoxCase6" classname="moneylion.AppTest" time="0.001"/>
 </testsuite>
