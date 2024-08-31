@@ -1,4 +1,4 @@
-# 🚀 Java Bounding Box Finder
+# 🚀 Bounding Box Finder
 
 ![Java CI/CD](https://github.com/sanchit27/assignment/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
